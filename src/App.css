@@ -1,0 +1,18 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: 69px 700px 1fr 500px 200px .25fr;
+}
+
+
+
+#mission{
+    background-color: blue;
+}
+
+#tom{
+    background-color: bisque;
+}
+
+#locations{
+    background-color: green;
+}
