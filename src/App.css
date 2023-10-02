@@ -18,3 +18,8 @@
 #locations{
     background-color: green;
 }
+
+.copyright{
+    justify-self: start;
+    padding: 0 0 20px 20px
+}
