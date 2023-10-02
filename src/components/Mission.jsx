@@ -2,7 +2,7 @@ import "./Mission.css";
 
 const Mission = () => {
   return (
-    <div id="mission">
+    <div className="mission">
       <div className="msg">
         <h2>Our Mission</h2>
         <h4>

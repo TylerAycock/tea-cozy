@@ -1,6 +1,6 @@
 .wrapper{
     display: grid;
-    grid-gap: 20px 0px;
+    grid-gap: 40px 0px;
     justify-content: center;
     margin-top: 69px;
 }
