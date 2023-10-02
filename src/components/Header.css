@@ -1,9 +1,14 @@
 .header{
-    width: 100vw;
+    min-height: 69px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 10px;
     border-bottom: 1px solid seashell;
 }
@@ -13,13 +18,11 @@
 }
 
 .nav{
- display: grid;
- grid-template-columns: repeat(3, auto);
- align-items: center;
- justify-content: end;
-
+    align-self: center;
+    justify-self: end;
 }
 
-.nav a{
-    padding: 10px;
+.nav a {
+    padding: 20px;
 }
+
