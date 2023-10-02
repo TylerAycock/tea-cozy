@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Mission from "./components/Mission";
 import TeaOfMonth from "./components/TeaOfMonth";
+import Locations from "./components/Locations";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header/>
       <Mission/>
       <TeaOfMonth/>
-      <div id="locations">Locations</div>
+      <Locations/>
       <footer>Footer</footer>
     </div>
   );

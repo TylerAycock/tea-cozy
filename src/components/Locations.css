@@ -1,0 +1,50 @@
+.locations{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*n8jupu*_ga*NzEyNjk3MjY2LjE2OTQwMzYzMjE.*_ga_3LRZM6TM9L*MTY5NjI2NjI3OS45LjEuMTY5NjI2NjI4NS41NC4wLjA.);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    min-height: 500px;
+    width: 90%;
+    align-items: center;
+    
+}
+
+.locations-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+@media(max-width:650px){
+    .locations-container{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-areas:
+        "one"
+        "two"
+        "three"
+        ;
+    }
+
+    .location{
+        display: grid;
+        height: auto;
+        width: auto;
+    }
+}
+
+.location{
+    background-color: black;
+    opacity: 1;
+    display: grid;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}

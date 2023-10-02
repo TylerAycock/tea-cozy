@@ -1,21 +1,20 @@
 .mission{
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*18k7d5s*_ga*NzEyNjk3MjY2LjE2OTQwMzYzMjE.*_ga_3LRZM6TM9L*MTY5NjAwOTAzNS43LjEuMTY5NjAwOTA3Mi4yMy4wLjA.);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    max-width: 1200px;
     min-height: 700px;
     text-align: center;
     display: grid;
-    align-content: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    grid-gap: 50px;
+    width: 90%;
 }
 
 .msg{
     background-color: black;
     width: 100%;
-    align-content: center;
-    padding: 10px 0px;
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
     line-height: 1.5;
 }
